@@ -124,6 +124,7 @@ To use sButtons in your project, just add the classes of sButton you want to eit
 ```html
 <button class="sbtn basic-btn blue-btn">Button</button>
 ```
+![basic button](./website/public/images/sbtn%20blue.PNG)
 
 You can find all classes mentioned in our [Examples](https://sbuttons.netlify.app/examples) page.
 
@@ -135,6 +136,8 @@ To use sButtons with block display, add the class to either `<button>` or `<a>`.
 <button class="sbtn basic-btn blue-btn block-btn">Button</button>
 ```
 
+![block button](./website/public/images/block%20blue%20btn.PNG)
+
 ## Disabled Buttons
 
 To make a `<button>` or `<a>` tag disabled, add `disabled-btn` class as shown below.
@@ -142,6 +145,8 @@ To make a `<button>` or `<a>` tag disabled, add `disabled-btn` class as shown be
 ```html
 <button class="sbtn basic-btn blue-btn disabled-btn">Button</button>
 ```
+
+![disabled button](./website/public/images/disabled%20button.PNG)
 
 ## Icon Buttons
 
@@ -154,6 +159,7 @@ The `icon-btn` class alone gives you a default button with no background color a
 ```html
 <button class="sbtn icon-btn"><i class="fas fa-book"></i></button>
 ```
+![icon only button](./website/public/images/icon.PNG)
 
 ## Icon Positioned to The Left
 
@@ -164,6 +170,7 @@ Adding the icon-left class to a button makes the icon positioned to the left.
   <i class="fas fa-book"></i>Read
 </button>
 ```
+![icon left button](./website/public/images/left.PNG)
 
 ## Icon Positioned to The Right
 
@@ -175,10 +182,14 @@ positioned to the right.
   Read<i class="fas fa-book"></i>
 </button>
 ```
+![icon right button](./website/public/images/right.PNG)
 
 ## Toggle Button
 
 The `toggle-btn` class, along with the `toggle-off-btn` / `toggle-on-btn` state class enables you to have a toggle button. Apart from the basic use, it can also be used for checkboxes and radio buttons. While not necessary, you can use the available state classes to choose whether your checkboxes and radio buttons are checked or not.
+
+![toggle button off](./website/public/images/toggle%20off.PNG)
+![toggle button on](./website/public/images/toggle%20on.PNG)
 
 ## Toggle Button as Checkboxes
 
@@ -203,6 +214,7 @@ To add the rounded buttons with a particular radius, you can use various classes
 ```html
 <button class="rounded-5-btn sbtn blue-btn">Rounded button </button>
 ```
+![rounded button](./website/public/images/rounded.PNG)
 
 ## Animated Buttons
 
@@ -211,11 +223,14 @@ To use Animated sButtons in your project, add the classes of the animated sButto
 ```html
 <button class="animated sbtn atom-btn blue-btn">Animated Button</button>
 ```
+
 Note: Depending on your button, the animation should either run infinitely or just once. 
 
 ## Dark Mode
 
 sButtons is compatible with dark mode. It either works by adding dark-mode class to buttons, or by adding data-theme="dark" to a container element.
+
+![dark mode button](./website/public/images/dark%20mode.PNG)
 
 ## Using dark-mode Class
 
