@@ -224,6 +224,8 @@ To use Animated sButtons in your project, add the classes of the animated sButto
 <button class="animated sbtn atom-btn blue-btn">Animated Button</button>
 ```
 
+![animated button](./website/public/images/animated.gif)
+
 Note: Depending on your button, the animation should either run infinitely or just once. 
 
 ## Dark Mode
